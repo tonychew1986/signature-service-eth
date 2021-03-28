@@ -1,0 +1,19 @@
+port: 3001
+chain-id: ropsten
+
+node-uri-mainnet: https://mainnet.infura.io/v3/ba29ca3746574629bccb2063975f1cf7
+node-uri-testnet: https://ropsten.infura.io/v3/c49355f661ea403ca9aeb237dce70e94
+
+USDT:
+  abi: './abi/abi_ropsten_USDT.json'
+  decimal: 6
+  address:
+    mainnet: '0xdac17f958d2ee523a2206206994597c13d831ec7'
+    testnet: '0xe11210AE133edD21fc2C7C974EBc20ABBe836243'
+
+LINK:
+  abi: './abi/abi_ropsten_LINK.json'
+  decimal: 18
+  address:
+    mainnet: '0x20fE562d797A42Dcb3399062AE9546cd06f63280'
+    testnet: '0x20fE562d797A42Dcb3399062AE9546cd06f63280'
